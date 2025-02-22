@@ -1,0 +1,16 @@
+{
+  "name": "movemaster",
+  "version": "1.0.0",
+  "description": "Тренажёр шахматных ходов. Использует `chess.js` для логики и `chessboard.js` для визуала.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ibragim.Ismailov",
+  "license": "ISC",
+  "dependencies": {
+    "chess.js": "^1.0.0",
+    "chessboardjs": "^0.0.1"
+  }
+}
