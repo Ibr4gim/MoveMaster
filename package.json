@@ -3,14 +3,35 @@
   "version": "1.0.0",
   "description": "Тренажёр шахматных ходов. Использует `chess.js` для логики и `chessboard.js` для визуала.",
   "main": "index.js",
+  "homepage": "https://Ibr4gim.github.io/MoveMaster",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start"
   },
   "keywords": [],
   "author": "Ibragim.Ismailov",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "chess.js": "^1.0.0",
-    "chessboardjs": "^0.0.1"
+    "chessboardjs": "^0.0.1",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
