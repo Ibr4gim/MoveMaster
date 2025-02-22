@@ -3,14 +3,14 @@ import { Container } from "react-bootstrap";
 
 import CustomButton from "./components/Button";
 import Header from "./components/Header";
-import ChessBoard from "./components/ChessBoard";
+import ChessGame from "./components/ChessGame";
 
 const App = () => {
   return (
     <Container className="d-flex flex-column align-items-center p-4">
       <Header />
       <CustomButton text="Click me" />
-      <ChessBoard />
+      <ChessGame />
     </Container>
   );
 };
