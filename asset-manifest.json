@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MoveMaster/static/css/main.cf8cb218.css",
+    "main.js": "/MoveMaster/static/js/main.a5cdd183.js",
+    "index.html": "/MoveMaster/index.html",
+    "main.cf8cb218.css.map": "/MoveMaster/static/css/main.cf8cb218.css.map",
+    "main.a5cdd183.js.map": "/MoveMaster/static/js/main.a5cdd183.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf8cb218.css",
+    "static/js/main.a5cdd183.js"
+  ]
+}
