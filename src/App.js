@@ -7,10 +7,11 @@ import ChessGame from "./components/ChessGame";
 
 const App = () => {
   return (
-    <Container className="d-flex flex-column align-items-center p-4">
+    <Container className="d-flex flex-column align-items-center p-4 ">
       <Header />
-      <CustomButton text="Click me" />
-      <ChessGame />
+      {/* <CustomButton text="Click me" /> */}
+      {/* <ChessGame /> */}
+      
     </Container>
   );
 };
