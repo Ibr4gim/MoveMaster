@@ -4,6 +4,8 @@ import { Container } from "react-bootstrap";
 import CustomButton from "./components/Button";
 import Header from "./components/Header";
 import ChessGame from "./components/ChessGame";
+import InfoCards from "./components/infoCards";
+import InfoCards from "./components/infoCards";
 
 const App = () => {
   return (
@@ -11,7 +13,7 @@ const App = () => {
       <Header />
       {/* <CustomButton text="Click me" /> */}
       {/* <ChessGame /> */}
-      
+      <InfoCards />
     </Container>
   );
 };
