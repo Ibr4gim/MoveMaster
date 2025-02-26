@@ -6,14 +6,18 @@ import Header from "./components/Header";
 import ChessGame from "./components/ChessGame";
 import InfoCards from "./components/infoCards";
 
+import "./App.css";
+
 const App = () => {
   return (
-    <Container className="d-flex flex-column align-items-center p-4 ">
-      <Header />
-      <CustomButton text="Click me" />
-      <ChessGame />
-      <InfoCards />
-    </Container>
+    <div className="App">
+      <Container className="d-flex flex-column align-items-center p-4 ">
+        <Header />
+        <CustomButton text="Click me" />
+        <ChessGame />
+        <InfoCards />
+      </Container>
+    </div>
   );
 };
 
