@@ -34,7 +34,7 @@ const ChessGame = () => {
   };
 
   return (
-    <div className="container text-center mt-4">
+    <div className="container text-center mt-4" justify="center" align="center">
       <h1 className="mb-3">MoveMaster</h1>
       <Chessboard
         position={fen}
